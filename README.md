@@ -12,4 +12,9 @@ sudo apt install curl -y && source <(curl -s https://raw.githubusercontent.com/l
 ```
 ./cha-cli getnewaddress > $HOME/cha_address.txt
 ```
+# View Address and Backup
+```
+cat $HOME/cha_address.txt
+```
+# Backup file Wallet (All in one)
 
