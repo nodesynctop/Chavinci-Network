@@ -26,6 +26,9 @@ Headers=Blocks
 cat $HOME/cha_address.txt
 ```
 **You can now send CHA to this address, initiating the verification process and earning rewards for each validated block.**
+
+Faucet on discord channel **#node-setup** and request (upload screen shot of your node and wallet address)
+
 # Check blance 
 ```
 ./cha-cli getbalance
