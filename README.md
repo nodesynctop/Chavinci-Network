@@ -26,6 +26,14 @@ Headers=Blocks
 cat $HOME/cha_address.txt
 ```
 **You can now send CHA to this address, initiating the verification process and earning rewards for each validated block.**
+# Check blance 
+```
+./cha-cli getbalance
+```
+# Check staking info
+```
+./cha-cli getstakinginfo
+```
 
 # Backup Wallet (All in one)
 Backup file **wallet.dat** to local PC (you can use Mobaxterm, WinSCP, Terminus)
