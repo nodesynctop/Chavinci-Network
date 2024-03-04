@@ -19,7 +19,10 @@ Headers=Blocks
 cat $HOME/cha_address.txt
 ```
 # Backup Wallet (All in one)
-
+Backup all file in folder 
+```
+cd $HOME/.chachain/testnet1/
+```
 # Delete node
 ```
 cd $HOME
