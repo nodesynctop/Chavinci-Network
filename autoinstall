@@ -62,7 +62,7 @@ cd $HOME
 
 ./chad
 
-echo -e "====================== Waiting ======================" && sleep 10 
+echo -e "====================== Waiting ======================" && sleep 15 
 
 cd $HOME
 ./cha-cli addnode 157.245.19.145:22833 add
