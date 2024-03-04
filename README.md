@@ -20,3 +20,12 @@ cat $HOME/cha_address.txt
 ```
 # Backup Wallet (All in one)
 
+# Delete node
+```
+cd $HOME
+./cha-cli stop
+rm -rf cha-cli
+rm -rf chad
+rm -rf .chachain
+rm -rf chavinci-linux.zip
+```
