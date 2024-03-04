@@ -59,8 +59,12 @@ staking=1
 EOF
 
 cd $HOME
+
 ./chad
-echo -e "====================== Waiting ======================" sleep 10 
+
+echo -e "====================== Waiting ======================" && sleep 10 
+
+cd $HOME
 ./cha-cli addnode 157.245.19.145:22833 add
 ./cha-cli addnode 146.190.207.106:22833 add
 ./cha-cli addnode 139.59.207.170:22833 add
