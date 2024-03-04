@@ -18,5 +18,5 @@ Headers=Blocks
 ```
 cat $HOME/cha_address.txt
 ```
-# Backup file Wallet (All in one)
+# Backup Wallet (All in one)
 
