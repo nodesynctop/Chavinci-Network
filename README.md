@@ -14,7 +14,7 @@ Headers=Blocks
 ```
 ./cha-cli getnewaddress > $HOME/cha_address.txt
 ```
-# View Address and Backup
+# View and Backup Address 
 ```
 cat $HOME/cha_address.txt
 ```
