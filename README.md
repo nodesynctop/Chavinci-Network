@@ -1,10 +1,11 @@
 # Chavinci-Network
+https://explorer.cha.network/
 
 # Auto Install
 ```
 sudo apt install curl -y && source <(curl -s https://raw.githubusercontent.com/lthuan2011/Chavinci-Network/main/autoinstall)
 ```
-# Check sync: https://explorer.cha.network/
+# Check sync: 
 Headers=Blocks
 ```
 ./cha-cli getblockchaininfo
