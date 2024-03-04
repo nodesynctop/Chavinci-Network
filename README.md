@@ -1,8 +1,13 @@
 # Chavinci-Network
+
 Explorer: https://explorer.cha.network/
+
 Guide dev: https://docs.cha.network/developer/node/manually-setup/
+
 Twitter: https://twitter.com/ChavinciNetwork
+
 Discord: https://discord.gg/zfJEzYEnVD
+
 # Auto Install
 ```
 sudo apt install curl -y && source <(curl -s https://raw.githubusercontent.com/lthuan2011/Chavinci-Network/main/autoinstall)
