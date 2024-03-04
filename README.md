@@ -19,9 +19,9 @@ Headers=Blocks
 cat $HOME/cha_address.txt
 ```
 # Backup Wallet (All in one)
-Backup file **wallet.dat**
+Backup file **wallet.dat** to local PC (you can use Mobaxterm, WinSCP, Terminus)
 ```
-cd $HOME/.chachain/testnet1/wallets/
+/root/.chachain/testnet1/wallets/
 ```
 # Delete node
 ```
