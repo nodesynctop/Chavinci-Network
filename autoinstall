@@ -66,6 +66,6 @@ cd $HOME
 
 echo -e "====================== SETUP FINISHED ======================"
 else
-echo "Please enter user and pass (not empty). Install Again"
+echo "Please enter user and pass (not empty). Install Again."
 fi 
  
