@@ -19,7 +19,7 @@ Headers=Blocks
 cat $HOME/cha_address.txt
 ```
 # Backup Wallet (All in one)
-Backup file ** wallet.dat**
+Backup file **wallet.dat**
 ```
 cd $HOME/.chachain/testnet1/wallets/
 ```
