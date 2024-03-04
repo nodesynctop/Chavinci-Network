@@ -64,8 +64,8 @@ cd $HOME
 ./cha-cli addnode 146.190.207.106:22833 add
 ./cha-cli addnode 139.59.207.170:22833 add
 
-
+echo -e "====================== SETUP FINISHED ======================"
 else
-echo "Please enter user and pass"
+echo "Please enter user and pass (not empty)"
 fi 
  
