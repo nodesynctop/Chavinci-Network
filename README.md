@@ -29,7 +29,7 @@ cat $HOME/cha_address.txt
 
 Faucet on discord channel **#node-setup** and request (upload screen shot of your node check sync and wallet address)
 
-# Check blance 
+# Check balance 
 ```
 ./cha-cli getbalance
 ```
