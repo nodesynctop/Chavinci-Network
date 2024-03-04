@@ -1,0 +1,71 @@
+#!/bin/bash
+clear
+
+if [[ ! -f "$HOME/.bash_profile" ]]; then
+    touch "$HOME/.bash_profile"
+fi
+
+if [ -f "$HOME/.bash_profile" ]; then
+    source $HOME/.bash_profile
+fi
+
+logo_nodesync(){
+
+clear
+
+ cat << "EOF"
+=========================================================================
+     _   _           _       ____
+    | \ | |         | |     / ___|
+    |  \| | ___   __| | ___| (__  _   _ ___    __   _____  ___  ___
+    |     |/ _ \ / _  |/ __\\__ \| | | |  _ \ / _| |_   _|/ _ \|  _ \
+    | |\  | (_) | (_) | /o_ ___) | |_| | | | | (_ _  | | | (_) | |_) |
+    |_| \_|\___/ \____|\___|____/ \__  |_| |_|\__(_) |_|  \___/|  _ /
+                                    _/ |                       | |
+                                   |__/                        |_|
+
+=========================================================================
+             Developed by: NodeSync.Top
+             Twitter: https://twitter.com/nodesync_top
+             Telegram: https://t.me/nodesync_top
+=========================================================================
+EOF
+
+}
+
+logo_nodesync;
+
+
+
+echo "===========Chavinci Network Install Easy======= " && sleep 1
+
+read -r -p "Your desired RPC username: " username
+read -r -p "Your desired RPC password: " password
+
+if [[ -n $username ]] && [[ -n $password  ]]; then
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+cd $HOME
+wget https://github.com/chavinci-chain/chavinci-releases/releases/download/1.0.3/chavinci-linux.zip && unzip chavinci-linux.zip
+mkdir $HOME/.chachain && cd $HOME/.chachain
+
+tee chachain.conf > /dev/null << EOF
+rpcuser=$username
+rpcpassword=$password
+daemon=1
+testnet=1
+staking=1
+EOF
+
+cd $HOME
+./chad
+./cha-cli addnode 157.245.19.145:22833 add
+./cha-cli addnode 146.190.207.106:22833 add
+./cha-cli addnode 139.59.207.170:22833 add
+
+
+else
+echo "Please enter user and pass"
+fi 
+ 
